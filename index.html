@@ -1,0 +1,276 @@
+  <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Nanodegree &mdash; Learn to Code</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div>
+  <h1>Nanodegree &mdash; Learn to Code</h1>
+  <div>
+  <!-- TOC taken from the lecture example and ammended accordinglty-->
+   <div class="TOC"> 
+    <h2>Table of Contents</h2>
+    <div class="TOC-lesson"> 
+    <ol>
+      <li class="TOC-lesson"><a href="#lesson-0">Introduction</a>
+        <ul>
+          <li><a href="#lesson-0-1">Five way of thinking like a programmer</a></li>
+        </ul>
+      <li class="TOC-lesson"><a href="#lesson-1">L1: Key aspects of the world wide web</a>
+        <ul>
+          <li><a href="#lesson-1-1">World Wide Web</a></li>
+          <li><a href="#lesson-1-2">Hypertext Markup Language</a></li>
+          <li><a href="#lesson-1-3">Elements</a></li>
+          <li><a href="#lesson-1-4">Span and div</a></li>
+        </ul>
+      </li>
+      <li class="TOC-lesson"><a href="#lesson-2">L2: Creating a Structured Document with HTML</a>
+        <ul>
+          <li><a href="#lesson-2-1">Developer Tools</a></li>
+          <li><a href="#lesson-2-2">Tree structure: Document object model (DOM)</a></li>
+          <li><a href="#lesson-2-3">Classes</a></li>
+          <li><a href="#lesson-2-4">Code Writing Tools</a></li>
+        </ul>
+      </li>
+      <li class="TOC-lesson"><a href="#lesson-3">L3: Adding CSS Style to HTML Structure</a>
+        <ul>
+          <li><a href="#lesson-3-1">Cascading Style Sheets (CSS)</a></li>
+          <li><a href="#lesson-3-2">Order</a></li>
+          <li><a href="#lesson-3-3">Specificity</a></li>
+          <li><a href="#lesson-3-4">Selectors</a></li>
+          <li><a href="#lesson-3-5">Box Sizing</a></li>
+          <li><a href="#lesson-3-6">Box Positioning</a></li>
+        </ul>
+      </li>
+      <li class="TOC-lesson"><a href="#lesson-4">Best practice</a>
+        <ul>
+          <li><a href="#lesson-4-1">Code, test, refine, and verify</a></li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+  <!-- main body-->
+  </div>
+    <div class="lesson" > <!-- 5 wyas -->
+      <h2 id="lesson-0">Five way of thinking<br>
+        like a programmer:</h2> 
+        <div class="concept-description" id="lesson-0-1"> <!-- no concept or concept-title class as it is preamble -->
+        <ol>
+        <li>Procedural thinking: creating perfectly clear and unambiguous instructions (sequential thinking)</li>
+        <li>Abstract thinking: finding generality (=&gt; abstractions) to avoid unnecessary repetition</li>
+        <li>Systematic debugging: following a structured process to find the mistakes (bugs)</li>
+        <li>Technological empathy: being aware that computers are powerful tools and at the same time stupid (no room for ambiguity)</li>
+        <li>Systems thinking: breaking a big problem down into smaller components</li>
+        </ol>
+        </div>
+    </div>
+    <div class="lesson" > <!-- L1 -->
+      <h2 id="lesson-1">Lesson 1:<br>
+        Key aspects of the world wide web</h2>
+        <div class="concept">
+          <div class="concept-title" id="lesson-1-1">
+          <h3 >World Wide Web</h3>
+          </div>
+          <div class="concept-description">
+            <p>
+          World Wide Web is a collection of <b>H</b>yper<b>t</b>ext <b>M</b> arkup <b>L</b>anguage
+          <!-- to use 'span and bold class' here seem overkill Pls advise -->
+          (HTML) documents that are stored on large computers called <span class="italic">servers</span>. These documents have two parts: first the meta data such as title of the pages and other elements like <span class="italic">Cascading Style Sheets</span> (CSS) and then the actual content of the page.
+          <br>
+          To access a document (a webpage) you have to use a <span class="italic">web browser</span> on a computer that sends a <span class="italic">HTTP request</span> to a specific server which serves the document back to your terminal.
+          </p>
+          </div>
+        </div>
+        <div class="concept">
+          <div class="concept-title" id="lesson-1-2">
+          <h3>Hypertext Markup Language (HTML)</h3>
+          </div>
+          <div class="concept-description">
+          <p>
+          The HTML determines the content (text) and the way it looks (markup). It can reference other content (images and video) as well as links to other HTML pages. These are <span class="italic">HTML attributes</span>.
+          </p>
+          </div>
+        </div>
+        <div class="concept">
+          <div class="concept-title" id="lesson-1-3">
+          <h3>Elements</h3>
+          </div>
+          <div class="concept-description">
+          <p>
+          A HTML page consists of <span class="italic">elements</span>. They are the building blocks: content bracketed with so called <span class="italic">tags</span>. It is not necessary to know all the tags. A good resource can be found <a href ="http://www.w3schools.com/html/default.asp">here</a>.
+          </p>
+          </div>
+        </div>
+        <div class="concept">
+          <div class="concept-title" id="lesson-1-4">
+          <h3>Span and div</h3>
+          </div>
+          <div class="concept-description">
+          <p>
+          It is important to note that some <span class="italic">elements</span> are either <span class="italic">inline</span> or <span class="italic">block</span>. This means they either flow with the text or have a hight and width that can be assigned around the content (invisible boxes).
+          </p>
+          </div>
+        </div>
+    </div>
+    <div class="lesson" > <!-- L2 -->
+      <h2 id="lesson-2">Lesson 2: <br>Webpages, documents, and structure</h2>
+        <div class="concept">
+          <div class="concept-title" id="lesson-2-1">
+          <h3>Developer Tools</h3>
+          </div>
+          <div class="concept-description">
+          <p>
+          Developer tools for instance in Chrome (menu top right) allow to inspect the structure and elements (indicated with triangles) of the a webpage: (1) to view the visible as well as the invisible elements; (2) to inspect the dimensions; and (3) their style (CSS).
+          </p>
+          </div>
+        </div>
+        <div class="concept">
+          <div class="concept-title" id="lesson-2-2">
+          <h3>Tree structure: Document object model (DOM)</h3>
+          </div>
+          <div class="concept-description">
+          <p>
+          HTML pages are structured like an outline (tree-like structure). HTML elements can include other elements. So the more indented the element  is the deeper nested it is. <br>
+          This in turn means the structure is a series of nested boxes. Visually the tree structure is boxes in boxes, in boxes.
+          </p>
+          </div>
+        </div>
+        <div class="concept">
+          <div class="concept-title" id="lesson-2-3">
+          <h3>Classes</h3>
+          </div>  
+          <div class="concept-description">
+          <p>
+          These boxes have 'labels' so called <span class="italic">class attributes</span>. Like other attributes a class is defined with a value.
+          </p>
+          </div>
+        </div>
+        <div class="concept">
+          <div class="concept-title" id="lesson-2-4">
+          <h3>Code Writing Tools</h3>
+          </div>
+          <div class="concept-description">
+          <p>
+          There are three key tools that differ in speed of feedback, ease of use, level of power,and the number of programming languages they can handle.
+          </p>
+            <dl>
+              <dt><a href="http://scratchpad.io">Scratchpad</a></dt>
+              <dd>easy to use (HTML &amp; CSS) with immediate feedback, great for beginners or quick sketches, no option to share</dd>
+              <dt><a href="http://codepen.io">Codepen</a></dt>
+              <dd>fewer beginner features slightly delayed feedback, easy to share (account needed), powerful editor for HTML, CSS and Javascript</dd>
+              <dt><a href="http://www.sublimetext.com/">Sublime</a></dt>
+              <dd>more difficult to use, feedback on refresh, complicated to share, very  powerful editor for all programming languages</dd>
+            </dl>
+            <p>The recommendation is to start with Scratchpad and to share with Codepen, later with Sublime
+          </p>
+          </div>
+        </div>
+    </div>
+    <div class="lesson" > <!-- L3 -->
+        <h2 id="lesson-3">Lesson 3: <br>Style, selectors, and boxes</h2>
+        <div class="concept">
+          <div class="concept-title" id="lesson-3-1">
+          <h3>Cascading Style Sheets (CSS)</h3>
+          </div>   
+          <div class="concept-description">
+          <p>
+          CSS identifies (<span class="italic">matches</span>) a class or a tag of an element, and then determines what to do with it, or what property values to change. This is akin to a find and replace tool. The order (place and sequence of the rules) and specificity are important.
+          </p>
+          </div>
+        </div>
+        <div class="concept">
+          <div class="concept-title" id="lesson-3-2">
+          <h3>Order</h3>
+          </div>
+          <div class="concept-description">
+            A subsequent definition overwrites the previous one:
+             <ol>
+                <li>browser&rsquo;s the default style (differs from browsers to browser)</li>
+                <li>separate stylesheet file (recommended)</li>
+                <li>stylesheet inside the header of a HTML document (only for small projects)</li>
+                <li>inline style in an element (not recommended)</li>
+            </ol>
+            <!-- initally I had enclode the above in paragraph tag but go an error. not sure why-->
+          </div>
+        </div>  
+        <div class="concept">
+          <div class="concept-title" id="lesson-3-3">
+          <h3>Specificity</h3>
+          </div>
+          <div class="concept-description">
+          <p>
+          Rules affect all of an elements&rsquo; child elements, not only the elements they directly match (= <span class="italic">cascading</span>). If several, overlapping rules define a child element, the more specific rule applies. See <span class="italic"><a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets#Inheritance">
+          inheritance</a></span> and note that text-related properties are inherited, box-related properties not.
+          </p>
+        </div>
+        </div>
+        <div class="concept">
+          <div class="concept-title" id="lesson-3-4">
+          <h3>Selectors</h3>
+          </div>
+            <div class="concept-description">
+              <ol>
+                <li>ID selectors (most powerful in terms of specificity: #selector</li>
+                <li>Class selectors (most useful and versatile): .class-name</li>
+                <li>Tag selectors (most useful when changing properties unique to tan element): e.g. h2</li>
+                <li>Attribute selectors (even more useful than classes because they have the same specificity value, but can be any attribute not just class, plus they can have a value you can select by): e.g. [data-modal="open"] </li>
+              </ol>
+              Selectors can be combined together. A webpage covering all the selectors and properties can be found <a href="https://css-tricks.com/almanac/">here</a>
+               <!-- initally I had enclode the above in paragraph tag but go an error. not sure why-->
+            </div>
+        </div>
+        <div class="concept">
+          <div class="concept-title" id="lesson-3-5">
+          <h3>Box Sizing</h3>
+          </div>
+          <div class="concept-description">
+          <p>
+            HTML elements are boxes and each box has 4 components: content, padding, border and margin. Either set sizes in terms of percentages rather than pixels or set the box-sizing attribute to border-box for every element. <br>
+            NB: Different browsers display the same code differently.
+            </p> 
+            <div class="image">
+              <img src="http://assignments.udacity-extras.appspot.com/courses/html-css/img/box-model.png" alt="Box Model">
+            </div>
+          </div>
+        </div>
+        <div class="concept">
+          <div class="concept-title" id="lesson-3-6">
+          <h3>Box Positioning</h3>
+          </div>
+          <div class="concept-description">
+          <p>
+          Divs&mdash;as block elements (as opposed to inline)&mdash;use by default the entire page width. The rule &lsquo;display: flex;&rsquo; lets divs appear next to each other. See <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">this article</a> for more details.
+          </p>
+          </div>
+        </div>
+      </div>
+    </div> <!--change-->
+    </div>
+    <div class="lesson" >  <!-- best practice -->
+      <h2  id="lesson-4">Best practice: <br>Code, test, refine, and verify</h2>
+      <div class="concept-description" id="lesson-4-1">  
+      <!-- no concept or concept-title class as it is the 'book end' to the preamble/summary -->
+      <ol>
+        <li>Look for natural boxes in the proposed design</li>
+        <li>Look for repeat styles and semantic elements</li>
+        <li>Write the HTML</li>
+        <li>Apply styles from biggest to smallest</li>
+        <li>Fix things (used the browser dev tools to quickly test before executing in HTML)</li>
+        <li>Verifying <a href="http://validator.w3.org/#validate_by_input">HTML</a> and <a href="http://jigsaw.w3.org/css-validator/#validate_by_input">CSS</a></li>
+      </ol>
+      </div>
+    </div>
+    <div> 
+    <p>
+      <a href="http://jigsaw.w3.org/css-validator/check/referer">
+       <img style="border:0;width:88px;height:31px"
+      src="http://jigsaw.w3.org/css-validator/images/vcss"
+      alt="Valid CSS!" />
+      </a>
+    </p>
+  </div>
+    
+</body>
+</html>
