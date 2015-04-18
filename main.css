@@ -14,7 +14,7 @@ body {
  	background: #999999;
 	padding: 5% 0px;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-  font-weight: 300;
+    font-weight: 300;
 	font-size: 1em;
 	line-height: 1.4em;
 }  
@@ -62,6 +62,7 @@ ul {
 }*/            
 
 img {
+	clip: rect(100px,100px,100px, 100px); 
 	width: 90%;
 	padding: 20px;
 	padding-left: 0px;
@@ -152,3 +153,33 @@ I couldn't find out why. I asassuming this topic is still too advanced. Will rev
     font-style: italic;
     font-weight: 600;
 }
+
+.code {
+	font-family: "New Courier"
+	font-size: 1em;
+	line-height: 1.4em;
+}
+
+/* 
+.bold {
+    font-weight: bold;
+}
+
+span.code {
+    font-family: Courier;
+    background-color: #BBBBBB;
+    padding: 2px 4px;
+    font-weight: bold;
+}
+
+div.code-block {
+    font-family: Courier;
+    background-color: #DDDDDD;
+    padding: 2px 4px;
+    display: inline-block;
+}
+
+span.indent {
+    margin-left: 38px;
+}
+*/
