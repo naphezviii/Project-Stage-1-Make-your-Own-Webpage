@@ -14,9 +14,9 @@
     <h2>Table of Contents</h2>
     <div class="TOC-lesson"> 
     <ol>
-      <li class="TOC-lesson"><a href="#lesson-0">Introduction</a>
+      <li class="TOC-lesson"><a href="#box-1">Introduction</a>
         <ul>
-          <li><a href="#lesson-0-1">Five way of thinking like a programmer</a></li>
+          <li><a href="#box-1-1">Five way of thinking like a programmer</a></li>
         </ul>
       <li class="TOC-lesson"><a href="#lesson-1">L1: Key aspects of the world wide web</a>
         <ul>
@@ -44,19 +44,19 @@
           <li><a href="#lesson-3-6">Box Positioning</a></li>
         </ul>
       </li>
-      <li class="TOC-lesson"><a href="#lesson-4">Best practice</a>
+      <li class="TOC-lesson"><a href="#box-2">Best practice</a>
         <ul>
-          <li><a href="#lesson-4-1">Code, test, refine, and verify</a></li>
+          <li><a href="#box-2-1">Code, test, refine, and verify</a></li>
         </ul>
       </li>
     </ol>
   </div>
   <!-- main body-->
   </div>
-    <div class="lesson" > <!-- L0: 5 wyas -->
-      <h2 id="lesson-0">Five way of thinking<br>
+    <div class="box" > <!-- B1 5 ways-->
+      <h2 id="box-1">Five way of thinking<br>
         like a programmer:</h2> 
-        <div class="concept-description" id="lesson-0-1"> <!-- no concept or concept-title class as it is preamble -->
+        <div class="concept-description" id="box-1-1"> <!-- no concept or concept-title class as it is box.class to highlight special information-->
         <ol>
         <li>Procedural thinking: creating perfectly clear and unambiguous instructions (sequential thinking)</li>
         <li>Abstract thinking: finding generality (=&gt; abstractions) to avoid unnecessary repetition</li>
@@ -115,7 +115,8 @@
         </div>
     </div>
     <div class="lesson" > <!-- L2 -->
-      <h2 id="lesson-2">Lesson 2: <br>Webpages, documents, and structure</h2>
+      <h2 id="lesson-2">Lesson 2: <br>Webpages, documents, and structure
+      </h2>
         <div class="concept">
           <div class="concept-title" id="lesson-2-1">
           <h3>Developer Tools</h3>
@@ -248,10 +249,10 @@
       </div>
     </div> <!--change-->
     </div>
-    <div class="lesson" >  <!-- (L4) best practice -->
-      <h2  id="lesson-4">Best practice: <br>Code, test, refine, and verify</h2>
-      <div class="concept-description" id="lesson-4-1">  
-      <!-- no concept or concept-title class as it is the 'book end' to the preamble/summary -->
+    <div class="box" >  <!-- B2 best practice -->
+      <h2  id="box-2">Best practice: <br>Code, test, refine, and verify</h2>
+      <div class="concept-description" id="box-2-1">  
+      <!-- no concept or concept-title class as it is box.class to highlight special information-->
       <ol>
         <li>Look for natural boxes in the proposed design</li>
         <li>Look for repeat styles and semantic elements</li>
@@ -262,7 +263,139 @@
       </ol>
       </div>
     </div>
-    <div> 
+    <!-- below is N E W ..... TODO Should be become new chapter or even page: Important Concepts - Telling Computers What to Do-->
+    <div class="lesson" >  <!--L4 -->
+      <h2 id="lesson-4">Lesson 4: <br>Introduction to 'Serious' Programming</h2>
+      <div class="concept">
+          <div class="concept-title" id="lesson-4-1">
+              <h3>Computer</h3>
+          </div>
+          <div class="concept-description">
+            <p>A computer can be programmed to do anything we want, as long as we can write a program that specifies a specific sequence of instructions.</p>
+          </div>
+      </div>
+      <div class="concept">
+          <div class="concept-title" id="lesson-4-2">
+              <h3>Computer Program</h3>
+          </div>
+          <div class="concept-description">
+              <p>A program is a precise sequence of steps that a computer can follow to do something useful. Web browsers, games, mobile apps, and simple print statements are all examples of computer programs.</p>
+          </div>
+      </div>
+      <div class="concept">
+          <div class="concept-title" id="lesson-4-3">
+              <h3>Programming Language</h3>
+          </div>
+          <div class="concept-description">
+              <p>A programming language is what programmers use to tell a computer what to do. Python is one example of a programming language.</p>
+          </div>
+      </div>
+      <div class="concept">
+          <div class="concept-title" id="lesson-4-4">
+              <h3>Python</h3>
+          </div>
+          <div class="concept-description">
+              <p>Python is a programming language. When you write Python code and press "Run", a Python Interpreter converts the code you wrote as a set of instructions that the computer itself can understand and execute.</p>
+          </div>
+      </div>
+      <div class="concept">
+          <div class="concept-title" id="lesson-4-5">
+              <h3>Grammar</h3>
+          </div>
+          <div class="concept-description">
+              <p>Just like human languages have grammars, programming languages do too. A grammar is a specification of what is correct and what is incorrect. NB: Computers are not smart enough to make sense of sentences that are not correct. So code has to be exactly correct according to the Python interpreter, otherwise it will not run.</p>
+          </div>
+      </div>
+      <div class="concept">
+          <div class="concept-title" id="lesson-4-6">
+              <h3>Python Expressions</h3>
+          </div>
+          <div class="concept-description">
+              <p>A Python "expression" is a legal Python statement. For example: print 1 + 1 is a valid expression, but print 1 + (without a number at the end) is not.</p>
+          </div>
+      </div>
+    </div>  
+    <div class="lesson" >  <!--L5 -->
+      <h2 id="lesson-5">Lesson 5: <br>Variables and Strings</h2>
+      <div class="concept">
+          <div class="concept-title" id="lesson-5-1">
+              <h3>Variable in Python</h3>
+              </div>
+              <div class="concept-description">
+                  <p>Variables give programmers a way to give names to values. A values is assigned to a variable with the equal sign "=" (takes the value of). To use the equal sign like in mathematics two equal sign need to be used "==" (is the same as). The value of a variable can be re-assigning with different value later. Variables are useful, because they (1) improve code readability by using names (2) store the value of important data (2) change the value of something</p>
+              </div>
+          </div>
+      <div class="concept">
+            <div class="concept-title" id="lesson-5-2">
+                <h3>String</h3>
+            </div>
+            <div class="concept-description">
+                <p>A string is a linear sequence of characters, words, or other data. It is enclosed in single (' ') or double (" ") quotation mark. NB: numbers become text in an string.</p>
+            </div>
+      </div>
+    </div>
+    <div class="lesson" >  <!--L6 -->
+      <h2 id="lesson-6">Lesson 6: <br>Input -> Function -> Output</h2>
+      <div class="concept">
+        <div class="concept-title" id="lesson-n-n">
+            <h3>Function (aka procedures)</h3>
+        </div>
+        <div class="concept-description">
+            <p>A function is something that takes input, does something to that input, and then produces output.</p>
+      </div>
+      </div>
+      <div class="concept">
+          <div class="concept-title" id="lesson-n-n">
+              <h3>Making and using a function</h3>
+          </div>
+          <div class="concept-description">
+              <p>Functions are made by starting a line of code with the keyword def and then giving a function name followed by the function parameters in parentheses. These parameters will eventually be replaced by actual values when the function is used (called). In the "body" of the function, we write the code that specifies what to do with the input parameters. For example the following code could be the definition of a function called square: def square(x): answer = x * x return answer To use a function, we write the name of the function followed by the value(s) we want to give it in parentheses. Like this: print square(4) >>>16</p>
+          </div>
+      </div>
+      <div class="concept">
+          <div class="concept-title" id="lesson-n-n">
+              <h3>How do functions help programmers avoid repetition?</h3>
+          </div>
+          <div class="concept-description">
+              <p>Functions are tools that programmers can create and reuse forever! Once you have defined a function once, you never have to define it again.</p>
+          </div>
+      </div>
+      <div class="concept">
+          <div class="concept-title" id="lesson-n-n">
+              <h3>What happens if a function does not have a return statement?</h3>
+          </div>
+          <div class="concept-description">
+              <p>The return keyword tells Python exactly what the function should produce as output. If a function does not have a return statement, then you will get behavior like this: def add_two(x): answer = x + 2 new_number = add_two(7) print new_number >>>None</p>
+          </div>
+      </div>
+      <div class="concept">
+      <div class="concept-title" id="lesson-n-n">
+          <h3>cont.</h3>
+      </div>
+      <div class="concept-description">
+          <p>to be expanded and properly formated</p>
+      </div>
+    </div>
+  </div>
+    <div class="box" >  <!-- B3 debugging -->
+      <h2  id="box-3">Debugging <br>5 Strategies</h2>
+      <div class="concept-description" id="box-3-1">  
+      <!-- no concept or concept-title class as it is box.class to highlight special information-->
+      <ol>
+        <li><b>Examine error messages when programs crash:</b> The last line of Python Tracebacks will tell you what went wrong. Reading backwards from there will tell you more about where the problem happened.</li>
+        <li><b>Work from example code:</b> If your modified code doesn't work, comment it out and do step-by-step modifications to the example code until it does what you want.</li>
+        <li><b>Make sure examples work:</b> Just because you find example code doesn't mean it will work. Check the example code you're using to make sure it behaves the way you expect.</li>
+        <li><b>Check (print) intermediate results:</b> When your code doesn't crash but isn't behaving as expected, add print statements to your program to see where in the code things stop behaving correctly.</li>
+        <li><b>Keep and compare old versions:</b> When you have a working version of your code, save it before you add to it. This will give you something to go back to if you introduce too many new bugs.</li>
+      </ol>
+      </div>
+    </div>
+    </div>  
+    </div>
+    </div>
+  </div>
+    </div>
+    <div>   <!-- footer -->
     <p>
       <a href="http://jigsaw.w3.org/css-validator/check/referer">
        <img style="border:0;width:88px;height:31px"

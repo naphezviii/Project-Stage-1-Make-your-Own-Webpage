@@ -62,7 +62,6 @@ ul {
 }*/            
 
 img {
-	clip: rect(100px,100px,100px, 100px); 
 	width: 90%;
 	padding: 20px;
 	padding-left: 0px;
@@ -119,6 +118,16 @@ I couldn't find out why. I asassuming this topic is still too advanced. Will rev
 	max-width: 70%;
 	margin: 50px auto; 
 	background-color: #777777;
+	border-radius: 5px;
+  padding: 3%;
+	margin: 10px auto;
+}
+
+.box {
+  min-width: 50%;
+	max-width: 70%;
+	margin: 50px auto; 
+	background-color: #666666;
 	border-radius: 5px;
   padding: 3%;
 	margin: 10px auto;
