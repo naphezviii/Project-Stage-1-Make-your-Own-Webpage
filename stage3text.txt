@@ -1,0 +1,41 @@
+TITLE:BOX: Abstraction
+DESCRIPTION:Abstraction in programming means finding generality to avoid unnecessary repetition. Python uses the power of object-oriented programming to do that though for instance modules and classes. This is particularly useful for large programming project.
+/end
+TITLE:Object-oriented programming (OOP) 
+DESCRIPTION:OOP is a programming paradigm based on the concept of ‘objects’. This means there is a construct in Python called a class that structures programs in a way that adds consistency to programs, because they are ‘re-usable’. A class is like blue print or mould that are used to create a multitude of objects or better instances.
+/end
+TITLE:Object 
+DESCRIPTION:A class tells Python to make a new ‘cast’. Object can have two meanings: the most basic type of cast, and any instance of a cast. Shaw (‘Learn Python the Hard Way’) proposes ‘Is-A’ and ‘Has-A’ to distinguish objects and classes.  http://learnpythonthehardway.org/book/ex42.html
+/end
+TITLE:IMAGE
+/end
+TITLE:Class [class ClassName:]
+DESCRIPTION:A class is a way to take a grouping of functions and data and place them inside a container so you can access them with the . (dot) operator. Use def to define a function inside a class. Inside the function in a class, self is a variable for the instance/object being accessed. With ‘ __init__()’ it is initialised and procedure creates space in memory. As mentioned before when a class is instantiated,	 an object is created.
+/end
+TITLE:Class and Instance Variables [var = ‘xxx’ before def] and [self.yyy = yyy]
+DESCRIPTION:Instance variables are for data unique to each instance and class variables are for attributes and methods shared by all instances of the class.
+/end
+TITLE:Inheritance (-> link css)
+DESCRIPTION:One class can inherit traits from another class, much like children form their parents (See CSS Inheritance). This mechanism allows multiple base classes. A derived class can override any methods (Inheritance) of its base class or classes, and a method can call the method of a base class with the same name. 
+/end
+TITLE:Instance (style guide)
+DESCRIPTION:The result when a program calls a class (See OPP and object above).
+/end
+TITLE:Method
+DESCRIPTION:A function which is defined inside a class body. If called as an attribute of an instance of that class, the method will get the instance object as its first argument (which is usually called self). 
+/end
+TITLE:Method overriding
+DESCRIPTION:A child class overrides a method of a parent class.
+/end
+TITLE:Module
+DESCRIPTION:A module is Python file with some functions or variables in it that need to be imported. The functions or variables in that module are accessed with the . (dot) operator.
+/end
+TITLE:Library
+DESCRIPTION:Python’s standard library contains built-in modules that provide access to system functionality as well as modules written in Python that provide standardized solutions for many problems that occur in everyday programming.
+/end
+TITLE:Lists and Arrays
+DESCRIPTION:Python Notes: Lists vs. Arrays
+http://www.wired.com/2011/08/python-notes-lists-vs-arrays/
+scipy array tip sheet
+http://pages.physics.cornell.edu/~myers/teaching/ComputationalMethods/python/arrays.html
+/end

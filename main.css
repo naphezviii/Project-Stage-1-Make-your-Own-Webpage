@@ -164,7 +164,7 @@ I couldn't find out why. I asassuming this topic is still too advanced. Will rev
 }
 
 .code {
-	font-family: "Lucida Console", Monaco, monospace
+	font-family: "Lucida Console", Monaco, monospace;
 	font-size: 1em;
 	line-height: 1.4em;
 }
@@ -175,14 +175,14 @@ I couldn't find out why. I asassuming this topic is still too advanced. Will rev
 }
 
 span.code {
-    font-family: Courier;
+    font-family: "Lucida Console", Monaco, monospace;
     background-color: #BBBBBB;
     padding: 2px 4px;
     font-weight: bold;
 }
 
 div.code-block {
-    font-family: Courier;
+    font-family: "Lucida Console", Monaco, monospace;
     background-color: #DDDDDD;
     padding: 2px 4px;
     display: inline-block;
