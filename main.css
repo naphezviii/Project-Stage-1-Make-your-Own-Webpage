@@ -67,6 +67,7 @@ img {
 	padding-left: 0px;
 	max-width: 70%;
 
+
 	/*position: absolute;
     clip: rect(100px,100px,100px, 100px); */
     /* This didn't work. I wanted to clip the top of the image 
@@ -169,6 +170,15 @@ I couldn't find out why. I asassuming this topic is still too advanced. Will rev
 	line-height: 1.4em;
 }
 
+.w3css {
+	border:0;
+	width: 88px;
+	max-width: 88px;
+	height:31px;
+    padding: 0px;
+    
+}
+
 /* 
 .bold {
     font-weight: bold;
@@ -188,7 +198,8 @@ div.code-block {
     display: inline-block;
 }
 
-span.indent {
-    margin-left: 38px;
+.quote {
+    padding-left: 2em;
+    padding-right: 2em;
 }
 */
